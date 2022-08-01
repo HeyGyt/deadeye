@@ -98,8 +98,6 @@ local CHOICE = MRANDOM(1,4)
 ArtificialHB = Instance.new("BindableEvent", script)
 ArtificialHB.Name = "ArtificialHB"
 
-script:WaitForChild("ArtificialHB")
-
 frame = Frame_Speed
 tf = 0
 allowframeloss = false
